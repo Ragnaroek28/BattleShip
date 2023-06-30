@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04CB4F462A3CEAD500DB8762 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04CB4F452A3CEAD500DB8762 /* main.cpp */; };
+		0407A4772A45A08000F2D3AC /* Core.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0407A4752A45A08000F2D3AC /* Core.cpp */; };
+		0407A47A2A45A08800F2D3AC /* Map.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0407A4782A45A08800F2D3AC /* Map.cpp */; };
+		0407A47D2A45A08E00F2D3AC /* Cell.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0407A47B2A45A08E00F2D3AC /* Cell.cpp */; };
+		0407A4802A45A09A00F2D3AC /* Ship.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0407A47E2A45A09A00F2D3AC /* Ship.cpp */; };
+		0407A4832A45A0A300F2D3AC /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0407A4812A45A0A300F2D3AC /* Player.cpp */; };
+		0407A4852A45A1B800F2D3AC /* Main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0407A4842A45A1B800F2D3AC /* Main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		04CB4F402A3CEAD500DB8762 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
+			dstPath = /usr/share/man/man1;
 			dstSubfolderSpec = 0;
 			files = (
 			);
@@ -23,8 +28,20 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0407A46B2A459FFB00F2D3AC /* BoolStruct.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BoolStruct.h; sourceTree = "<group>"; };
+		0407A4752A45A08000F2D3AC /* Core.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Core.cpp; sourceTree = "<group>"; };
+		0407A4762A45A08000F2D3AC /* Core.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Core.hpp; sourceTree = "<group>"; };
+		0407A4782A45A08800F2D3AC /* Map.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Map.cpp; sourceTree = "<group>"; };
+		0407A4792A45A08800F2D3AC /* Map.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Map.hpp; sourceTree = "<group>"; };
+		0407A47B2A45A08E00F2D3AC /* Cell.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Cell.cpp; sourceTree = "<group>"; };
+		0407A47C2A45A08E00F2D3AC /* Cell.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Cell.hpp; sourceTree = "<group>"; };
+		0407A47E2A45A09A00F2D3AC /* Ship.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Ship.cpp; sourceTree = "<group>"; };
+		0407A47F2A45A09A00F2D3AC /* Ship.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Ship.hpp; sourceTree = "<group>"; };
+		0407A4812A45A0A300F2D3AC /* Player.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Player.cpp; sourceTree = "<group>"; };
+		0407A4822A45A0A300F2D3AC /* Player.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Player.hpp; sourceTree = "<group>"; };
+		0407A4842A45A1B800F2D3AC /* Main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Main.cpp; sourceTree = "<group>"; };
+		046A7F412A4EF46D009196C9 /* field.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = field.txt; sourceTree = "<group>"; };
 		04CB4F422A3CEAD500DB8762 /* Battleship */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Battleship; sourceTree = BUILT_PRODUCTS_DIR; };
-		04CB4F452A3CEAD500DB8762 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +58,19 @@
 		04CB4F392A3CEAD500DB8762 = {
 			isa = PBXGroup;
 			children = (
-				04CB4F442A3CEAD500DB8762 /* Battleship */,
+				046A7F412A4EF46D009196C9 /* field.txt */,
+				0407A4842A45A1B800F2D3AC /* Main.cpp */,
+				0407A4812A45A0A300F2D3AC /* Player.cpp */,
+				0407A4822A45A0A300F2D3AC /* Player.hpp */,
+				0407A47E2A45A09A00F2D3AC /* Ship.cpp */,
+				0407A47F2A45A09A00F2D3AC /* Ship.hpp */,
+				0407A47B2A45A08E00F2D3AC /* Cell.cpp */,
+				0407A47C2A45A08E00F2D3AC /* Cell.hpp */,
+				0407A4782A45A08800F2D3AC /* Map.cpp */,
+				0407A4792A45A08800F2D3AC /* Map.hpp */,
+				0407A4752A45A08000F2D3AC /* Core.cpp */,
+				0407A4762A45A08000F2D3AC /* Core.hpp */,
+				0407A46B2A459FFB00F2D3AC /* BoolStruct.h */,
 				04CB4F432A3CEAD500DB8762 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,14 +81,6 @@
 				04CB4F422A3CEAD500DB8762 /* Battleship */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		04CB4F442A3CEAD500DB8762 /* Battleship */ = {
-			isa = PBXGroup;
-			children = (
-				04CB4F452A3CEAD500DB8762 /* main.cpp */,
-			);
-			path = Battleship;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +140,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04CB4F462A3CEAD500DB8762 /* main.cpp in Sources */,
+				0407A4852A45A1B800F2D3AC /* Main.cpp in Sources */,
+				0407A47D2A45A08E00F2D3AC /* Cell.cpp in Sources */,
+				0407A4802A45A09A00F2D3AC /* Ship.cpp in Sources */,
+				0407A47A2A45A08800F2D3AC /* Map.cpp in Sources */,
+				0407A4772A45A08000F2D3AC /* Core.cpp in Sources */,
+				0407A4832A45A0A300F2D3AC /* Player.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
